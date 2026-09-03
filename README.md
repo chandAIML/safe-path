@@ -20,8 +20,6 @@ SafePath is a mobile safety application that shifts personal safety from *reacti
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [System Architecture](#system-architecture)
-- [Project Timeline](#project-timeline)
-- [Team](#team)
 - [Getting Started](#getting-started)
 - [Folder Structure](#folder-structure)
 - [Data Sources](#data-sources)
@@ -71,39 +69,6 @@ Most existing personal safety apps only act *after* a user manually presses an S
 ## System Architecture
 
 ![SafePath architecture](assets/architecture.svg)
-
----
-
-## Project Timeline
-
-**Duration:** 24 weeks (6 months) | **Reviews:** Weeks 8, 14, 20, and 24
-
-| Weeks | Phase |
-|---|---|
-| 1–2 | Requirement analysis, planning, tech setup |
-| 3–6 | Core app, auth, map/GPS integration, data collection |
-| 7–8 | Route risk prediction + safe-zone recommendations *(Review)* |
-| 9–12 | Voice distress detection: research, prototype, integration |
-| 13–14 | Automatic evidence collection + emergency alerts *(Review)* |
-| 15–16 | AI safety chatbot |
-| 17–19 | Safe Walk, auto check-in, community map, offline SOS |
-| 20 | Fake call & stealth mode *(Review)* |
-| 21–22 | Full integration, testing & bug fixing |
-| 23–24 | Documentation, final report & demo *(Review)* |
-
-*(See the full 24-week detailed plan document for week-by-week breakdown.)*
-
----
-
-## Team
-
-| Name | Focus Area |
-|---|---|
-| Chandini | Mobile UI / Frontend |
-| Lavanya | Backend & APIs |
-| Mamatha | AI / ML Models |
-| Samatha | Integrations & Data |
-| Monika | AI Chatbot, Testing & Documentation |
 
 ---
 
