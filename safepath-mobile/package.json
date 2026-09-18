@@ -1,0 +1,19 @@
+{
+  "name": "safepath-mobile",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "expo": "~57.0.0",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.9.26",
+    "react-native-screens": "~4.4.0",
+    "react-native-safe-area-context": "~5.1.0"
+  }
+}
