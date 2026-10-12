@@ -1,0 +1,16 @@
+{
+  "name": "safepath",
+  "version": "2.0.0",
+  "private": true,
+  "description": "SafePath - women safety app. backend/ = Express + MongoDB API, mobile/ = React Native (Expo) app",
+  "scripts": {
+    "setup": "npm install && npm --prefix backend install && npm --prefix mobile install",
+    "start": "node scripts/start.js",
+    "api": "npm --prefix backend start",
+    "app": "npm --prefix mobile start",
+    "test": "npm --prefix backend test"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0"
+  }
+}
