@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "SafePath",
+    "slug": "safepath",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "SafePath shares your location with your emergency contacts and uses it to plan safe routes.",
+        "NSMicrophoneUsageDescription": "SafePath listens for distress words and records audio evidence during an SOS.",
+        "NSCameraUsageDescription": "SafePath records front-camera video as evidence during an SOS."
+      },
+      "bundleIdentifier": "com.safepath.app"
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "VIBRATE",
+        "RECORD_AUDIO",
+        "CAMERA"
+      ],
+      "package": "com.safepath.app"
+    },
+    "userInterfaceStyle": "light"
+  }
+}
