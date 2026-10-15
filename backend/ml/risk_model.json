@@ -1,0 +1,38 @@
+{
+  "trainedOn": "synthetic data (expert-prior simulator)",
+  "samples": 30000,
+  "features": [
+    "dark",
+    "lateNight",
+    "unlit",
+    "lowCrowd",
+    "roadIso",
+    "helpFar",
+    "crime",
+    "reports",
+    "rain",
+    "dark x unlit",
+    "dark x lowCrowd"
+  ],
+  "weights": [
+    0.5653,
+    0.602,
+    0.8378,
+    0.7509,
+    0.6524,
+    0.5401,
+    1.3354,
+    1.5221,
+    0.2726,
+    1.0303,
+    0.9709
+  ],
+  "bias": -4.1297,
+  "test": {
+    "n": 6000,
+    "accuracy": 0.782,
+    "auc": 0.823,
+    "majorityBaseline": 0.706
+  },
+  "trainedAt": "2026-10-11T14:53:58.709Z"
+}
